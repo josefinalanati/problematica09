@@ -12,9 +12,33 @@
   <header id= "main">
     <h1 id="headerTitle">Register Form</h1>
 </header>
-  <div class="fullName">
-    <label for="name">Name</label>
-    <input id="name" name="name" type="text">
+  <div class="conteiner">
+      <form class="formRegister" name="register">
+          <div class="tittle">
+              <h1 class="innerTitle">Complete the following information</h1>
+          </div>  
+          <div class="fullName">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <div class="fullName">
+            <label for="surname">Surname</label>
+            <input id="surname" name="surname" type="text" required>
+          </div>
+          <div class="email">
+              <label for= "email" id="email">Email</label>
+              <input id= "email" name="email" type="text" required>
+          </div>
+          <div class="password">
+              <label for="password" id="password">Password</label>
+              <input id="password" class="password" type="password" required>
+          </div>
+          <div class="confirmPassword">
+            <label for="confirmPassword" id="confirmPassword">Confirm Password</label>
+            <input id="confirmPassword" class="confirmPassword" type="password" required>
+          </div>
+          <button type="submit">Sign Up</button>
+  </div>
   </div>
 </body>
 </html>
