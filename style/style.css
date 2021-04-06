@@ -13,14 +13,16 @@ body{
     text-align: center;
     display: flex;
 }
-h1{
+.conteinerh1{
     text-align: left;
     color:black;
     background-color: lightsteelblue;
     font-family: sans-serif;
     font-stretch: wider;
+    margin-top: 0%;
+    background-size: 20%;
 }
-.container{
+.containerform{
     position: relative;
     width: 600px;
     height: fit-content;
@@ -30,6 +32,10 @@ h1{
     box-shadow: linen;
     font-family: sans-serif;
 }
+.form{
+    display: flex;
+    flex-direction: column;
+}
 .innerTitle{
     text-align: center;
     font-style: oblique;
@@ -37,7 +43,6 @@ h1{
     margin-bottom: 5%;
     font-family: sans-serif;
     margin-top:5%;
-    font-size:
 }
 .email{
     margin-top:5%;
