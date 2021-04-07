@@ -1,11 +1,2 @@
-var email = document.getElementsByClassName("email")
-var password = document.getElementsByClassName("password")
-var error = document.getElementById ("error")
-var labels= document.getElementsByTagName("label")
-var inputs= document.getElementsByTagName("input")
-var buttons= document.getElementsByTagName("button")
-var form = document.getElementsByClassName("containerform")
-var message = document.getElementById ("validItems")
-var title = document.getElementById("headerTitle")
-console.log(error)
-
+var formValidation = document.getElementsByClassName("containerform")
+console.log(formValidation)
