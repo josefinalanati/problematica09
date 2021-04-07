@@ -11,7 +11,7 @@
 <body>
   <div class=containerform>
     <h1 id="headerTitle">Login Form</h1>
-       <form class= "loginForm">
+       <form>
            <div class="email">
                <label for= "email" id="email">Email</label>
                <input id= "email" name="email" type="text" required>
@@ -31,7 +31,10 @@
    <div id="validation-container">
     <ul id="validItems"></ul>
    </div>
-   <div id="error"></div>
+   <div id="error-log-container" class="hidden">
+   <h2>Validation report: </h2>
+   <ul id="list-of-errors">
+   </ul>
 </body>
 <script src="../javascript/login.js"></script>
 </html>
